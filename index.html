@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
+
+    <title>PWA Notes App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>My Notes</h1>
+
+        <div class="note-form">
+            <textarea type="text" id="noteInput" placeholder="Write note..."></textarea>
+        </div>
+
+        <div class="note-form">
+            <button id="addNoteBtn">Add</button>
+            <button id="clearAllBtn" class="danger">Delete all</button>
+        </div>
+        
+        <ul id="notesList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
