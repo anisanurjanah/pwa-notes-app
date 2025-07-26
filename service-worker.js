@@ -1,13 +1,13 @@
 const CACHE_NAME = 'pwa-notes-cache-v2';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/main.js',
-    '/manifest.json',
-    '/favicon.ico',
-    '/icon-192.png',
-    '/icon-512.png',
+    "/pwa-notes-app/",
+    "/pwa-notes-app/index.html",
+    "/pwa-notes-app/style.css",
+    "/pwa-notes-app/main.js",
+    "/pwa-notes-app/manifest.json",
+    "/pwa-notes-app/favicon.ico",
+    "/pwa-notes-app/icon-192.png",
+    "/pwa-notes-app/icon-512.png",
 ];
 
 // Install service worker
